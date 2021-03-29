@@ -53,13 +53,16 @@
 @media screen and (max-width: 1100px) {
   #middle{
     flex-wrap: wrap;
+    height: auto;
   }
   #nav {
     width: 100%;
+    height: auto;
   }
   #main{
     width: 100%;
     flex-wrap: wrap;
+    height: 50vh;
     }
   #articles{
     width: 50%;
@@ -67,7 +70,6 @@
   #ads{
     width: 50%;
   }
-
 }
 
 @media screen and (max-width: 700px) {
